@@ -2,6 +2,8 @@
 
 ## Interactive Cellular Automata 2D/3D Visualizer
 
+[![Playwright Tests](https://github.com/riccardoscuto/InteractiveGraphicsFinalProject-automations/actions/workflows/playwright.yml/badge.svg)](https://github.com/riccardoscuto/InteractiveGraphicsFinalProject-automations/actions/workflows/playwright.yml)
+
 Suite automatizzata di test end-to-end (E2E) realizzata con **Playwright** e **TypeScript** per l'applicazione interattiva [Interactive Cellular Automata 2D/3D Visualizer](https://interactive-cellular-automata.netlify.app/).
 
 Questo progetto costituisce una dimostrazione pratica di competenze tecniche in **QA Automation** e **Technical QA**: progettazione di test plan e casi di test, architettura della test suite, gestione di race condition e concorrenza hardware su carichi grafici 3D/WebGL (Three.js), pipeline CI/CD con GitHub Actions e documentazione formale.

@@ -165,8 +165,8 @@ Creazione del workflow [`.github/workflows/playwright.yml`](.github/workflows/pl
 - **18 Casi di Test E2E Automatizzati**
 - **5 Aree Funzionali Coperte** (Smoke, Controls, Modes, Rules, Camera)
 - **100% Pass Rate**
-- **0 Flaky Test**
-- **4 Documenti QA di Livello Enterprise**
+- **Nessuna instabilità (flakiness) rilevata nelle esecuzioni di baseline**
+- **4 Documenti QA Strutturati** (Test Plan, Test Cases, Automation Strategy, Roadmap)
 - **1 Pipeline CI/CD Attiva su GitHub**
 
 ---
