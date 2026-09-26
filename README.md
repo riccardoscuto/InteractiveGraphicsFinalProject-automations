@@ -1,4 +1,4 @@
-# 🧪 QA Automation Portfolio — E2E Test Suite
+# QA Automation Portfolio — E2E Test Suite
 
 ## Interactive Cellular Automata 2D/3D Visualizer
 
@@ -10,22 +10,22 @@ Questo progetto costituisce una dimostrazione pratica di competenze tecniche in 
 
 ---
 
-## 📋 Aree di Test e Copertura
+##  Aree di Test e Copertura
 
 La suite comprende **18 test automatizzati** organizzati per dominio funzionale:
 
 | Area | Suite / File | Test | Descrizione |
 | :--- | :--- | :---: | :--- |
-| 🔥 **Smoke Tests** | [`tests/smoke/app-load.spec.ts`](tests/smoke/app-load.spec.ts) | 3 | Bootstrap applicativo, montaggio canvas WebGL a tutto schermo, assenza di errori in console |
-| 🎮 **Controlli Simulazione** | [`tests/simulation/controls.spec.ts`](tests/simulation/controls.spec.ts) | 4 | Ciclo di vita Start/Pause, Dark Mode, toggle opzioni visive (Wireframe, Grid, Stats) e slider velocità |
-| 🔄 **Modalità 2D / 3D** | [`tests/simulation/modes.spec.ts`](tests/simulation/modes.spec.ts) | 4 | Selezione 2D, transizione bidirezionale 3D ↔ 2D, esecuzione simulazione e coerenza stato UI |
-| ⚙️ **Configurazione Regole** | [`tests/configuration/rules.spec.ts`](tests/configuration/rules.spec.ts) | 4 | Preset da catalogo con aggiornamento a cascata, safety check di stop automatico, vicinato Moore/Von Neumann e slider Size |
-| 📷 **Camera 3D & Orbit** | [`tests/simulation/camera.spec.ts`](tests/simulation/camera.spec.ts) | 3 | Rotazione orbitale con mouse drag, zoom in/out con rotellina (wheel) e interazione camera durante simulazione attiva |
+|  **Smoke Tests** | [`tests/smoke/app-load.spec.ts`](tests/smoke/app-load.spec.ts) | 3 | Bootstrap applicativo, montaggio canvas WebGL a tutto schermo, assenza di errori in console |
+|  **Controlli Simulazione** | [`tests/simulation/controls.spec.ts`](tests/simulation/controls.spec.ts) | 4 | Ciclo di vita Start/Pause, Dark Mode, toggle opzioni visive (Wireframe, Grid, Stats) e slider velocità |
+|  **Modalità 2D / 3D** | [`tests/simulation/modes.spec.ts`](tests/simulation/modes.spec.ts) | 4 | Selezione 2D, transizione bidirezionale 3D ↔ 2D, esecuzione simulazione e coerenza stato UI |
+|  **Configurazione Regole** | [`tests/configuration/rules.spec.ts`](tests/configuration/rules.spec.ts) | 4 | Preset da catalogo con aggiornamento a cascata, safety check di stop automatico, vicinato Moore/Von Neumann e slider Size |
+|  **Camera 3D & Orbit** | [`tests/simulation/camera.spec.ts`](tests/simulation/camera.spec.ts) | 3 | Rotazione orbitale con mouse drag, zoom in/out con rotellina (wheel) e interazione camera durante simulazione attiva |
 | **Totale** | | **18** | **100% Passed** |
 
 ---
 
-## 🛠️ Stack Tecnologico
+##  Stack Tecnologico
 
 | Tecnologia | Ruolo |
 | :--- | :--- |
@@ -37,7 +37,7 @@ La suite comprende **18 test automatizzati** organizzati per dominio funzionale:
 
 ---
 
-## 🧠 Problematiche Tecniche e Soluzioni QA (Case Studies)
+##  Problematiche Tecniche e Soluzioni QA (Case Studies)
 
 Durante la progettazione e automazione della suite sono state affrontate e risolte sfide tipiche di applicazioni grafiche complesse:
 
@@ -56,7 +56,7 @@ Durante la progettazione e automazione della suite sono state affrontate e risol
 
 ---
 
-## 📁 Struttura del Progetto
+##  Struttura del Progetto
 
 ```text
 ├── tests/
@@ -85,7 +85,7 @@ Durante la progettazione e automazione della suite sono state affrontate e risol
 
 ---
 
-## 🚀 Istruzioni di Esecuzione Locale
+## Istruzioni di Esecuzione Locale
 
 ### Prerequisiti
 - [Node.js](https://nodejs.org) v18 o superiore
@@ -117,7 +117,7 @@ npm run test:e2e:report
 
 ---
 
-## 🔄 Pipeline CI/CD (GitHub Actions)
+##  Pipeline CI/CD (GitHub Actions)
 
 Il flusso di integrazione continua è configurato in [`.github/workflows/playwright.yml`](.github/workflows/playwright.yml) ed esegue automaticamente l'intera suite a ogni `push` e `pull_request` sul branch `main`.
 
@@ -129,13 +129,4 @@ In caso di esecuzione, il workflow:
 
 ---
 
-## 📖 Documentazione Tecnica QA
 
-- 📑 **[Master Test Plan](docs/TEST_PLAN.md)**: Ambito, browser supportati, analisi dei rischi e criteri di exit.
-- 📋 **[Test Cases Matrix](docs/TEST_CASES.md)**: Dettaglio di tutti i 18 casi di test con ID, priorità e passi operativi.
-- 🎯 **[Automation Strategy](docs/AUTOMATION_STRATEGY.md)**: Criteri di automazione, locator strategy e policy anti-flakiness.
-
----
-
-**Autore:** QA Automation Engineer Portfolio  
-**Stack:** Playwright · TypeScript · Three.js · React · GitHub Actions
